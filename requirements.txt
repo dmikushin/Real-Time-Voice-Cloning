@@ -1,4 +1,4 @@
-tensorflow-gpu>=1.10.0,<=1.14.0
+tensorflow>=1.10.0,<=1.14.0
 umap-learn
 visdom
 webrtcvad
@@ -12,4 +12,6 @@ Unidecode
 inflect
 PyQt5
 multiprocess
-numba
+numba<=0.48.0
+torch
+torchvision
